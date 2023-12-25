@@ -1,3 +1,37 @@
-  <div id="main_chat_header"></div>
-  <div id="main_chat_content"></div>
-  <div id="main_chat_message"></div>
+  <div id="main_chat_header">
+    <p id="header_title">RoomName</p>
+    <a href="#" id="end_btn">チャットを終了する</a>
+  </div>
+
+  <%# メインチャット content ----------------------------------------------- %>
+  <div id="main_chat_content">
+    
+    <div class="posting_container">
+      <div class="posting_title">
+        <p class="posting_name">投稿者</p>
+        <time class="posting_time">2023/23/25(Mon) 17:50</time>
+      </div>
+      <p class="posting_content">Hello,World</p>
+    </div>
+
+    <div class="posting_container">
+      <div class="posting_title">
+        <p class="posting_name">投稿者 2</p>
+        <time class="posting_time">2023/23/25(Mon) 17:50</time>
+      </div>
+      <p class="posting_content">Hello,World</p>
+    </div>
+  </div>
+  <%# メインチャット message form ----------------------------------------------- %>
+  <div id="main_chat_message">
+    <form action="#" id="message_form">
+      <div class="form-input">
+        <input type="text" placeholder="type a message" id="text_form">
+        <label class="form-image">
+        <span class="image-file">画像</span>
+        <input type="file" class="hidden">
+        </label>
+      </div>
+      <input type="submit" value="送信" id="send_btn">
+    </form>
+  </div>
