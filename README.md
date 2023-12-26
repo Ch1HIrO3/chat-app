@@ -30,8 +30,8 @@
 
 | Column | Type       | Options                        |
 | ------ | ---------- | ------------------------------ |
-| user   | references | null: false, foreign_key: true |
 | room   | references | null: false, foreign_key: true |
+| user   | references | null: false, foreign_key: true |
 
 ### Association
 
