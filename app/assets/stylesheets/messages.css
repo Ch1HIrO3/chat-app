@@ -51,11 +51,11 @@ a{
 }
 
 .room_list{
-  padding: 20px 20px 40px;
   list-style: none;
+  padding: 20px 20px 40px;
 }
 
-.room_link{
+.room_list a{
   color: white;
 }
 
@@ -128,7 +128,7 @@ a{
   padding: 20px 40px;
 }
 
-#message_form{
+.form{
   display: flex;
   height: 50px;
 }
@@ -139,7 +139,7 @@ a{
   width: 100%;
 }
 
-#text_form{
+.form-message{
   background-color: white;
   height: 100%;
   width: 100%;
@@ -147,7 +147,7 @@ a{
   border: none;
 }
 
-#send_btn{
+.form-submit{
   background-color: #38aef0;
   color: white;
   font-size: 16px;
