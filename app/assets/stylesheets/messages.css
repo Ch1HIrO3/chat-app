@@ -80,12 +80,15 @@ a{
   margin-top: 36px;
 }
 
-#end_btn{
-  color: darkred;
+.header-button{
   padding: 20px;
   border: 1px solid darkred;
   height: fit-content;
   margin: auto 0;
+}
+
+.header-button a{
+  color: darkred;
 }
 
 /* メインチャット content------------------------------------------- */
